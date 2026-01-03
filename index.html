@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=1920"/>
-    <meta name="description"
-          content="Tizen Download API Demo" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Elauxy — Authentic • Elite • Sexy</title>
 
-    <title>Tizen Download API</title>
-
-    <script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
+<style>
+body{margin:0;font-family:Arial;background:#0b0b0b;color:#fff}
+header{padding:60px 20px;text-align:center}
+h1{font-size:36px;letter-spacing:1px}
+.tagline{color:#cfcfcf;margin-top:10px}
+.section{max-width:900px;margin:40px auto;padding:20px}
+.card{background:#111;border:1px solid #1f1f1f;border-radius:10px;padding:20px;margin:15px 0}
+footer{padding:25px;text-align:center;background:#050505;color:#888}
+.btn{display:inline-block;padding:10px 18px;border:1px solid #fff;border-radius:30px;text-decoration:none;color:#fff;margin-top:10px}
+</style>
 </head>
 
 <body>
 
-    <h1>Tizen Download API</h1>
+<header>
+  <h1>Elauxy</h1>
+  <div class="tagline">Authentic • Elite • Sexy</div>
+</header>
 
-    <div class="left">
-        <h2>Available buttons/actions:</h2>
+<div class="section">
+  <div class="card">
+    <h2>Imported Premium Care</h2>
+    <p>Luxury hair & skincare, curated from Spain — designed for those who choose quality over compromise.</p>
+  </div>
 
-        <div>
-            1 - Downloaded file lists<br>
-            2 - Start download - small file<br>
-            3 - Start download - large file<br>
-            Pause - Pause download<br>
-            Play - Resume download<br>
-            Stop - Cancel download<br>
-            0 - Clear logs
-        </div>
+  <div class="card">
+    <h2>Our Promise</h2>
+    <ul>
+      <li>100% authentic imported products</li>
+      <li>Dermatologically tested</li>
+      <li>Premium quality without the drama</li>
+    </ul>
+  </div>
 
-        <div id="progress" class="progress">
-            <div id="bar" class="bar"></div>
-        </div>
+  <div class="card">
+    <h2>Connect With Us</h2>
+    <p>Have questions or want to order?</p>
+    <a class="btn" href="https://wa.me/yourwhatsapplink">WhatsApp Us</a>
+  </div>
+</div>
 
-        <fieldset>
-            <legend>Downloaded files:</legend>
-            <div id="fileList" class="logs"></div>
-        </fieldset>
+<footer>
+  © Elauxy — All Rights Reserved
+</footer>
 
-        <fieldset>
-            <legend>Logs</legend>
-            <div id="logs" class="logs"></div>
-        </fieldset>
-    </div>
-    <div class="right">
-        <h2>Info</h2>
-
-        <p>This application demonstrates the usage of Tizen download API</p>
-
-        <p>The application downloads files from <code>http://techslides.com</code> and <code>http://download.blender.org</code>. If these domains are not accessible it will not work.<br>
-
-            You can change the source location of files to download by changing the contents of <code>url1</code> and <code>url2</code> variables in <code>main.js</code> file</cide></p>
-    </div>
-
-    <script src="main.js"></script>
 </body>
 </html>
